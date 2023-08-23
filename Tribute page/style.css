@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.main{
+    background-image: url(./MS\ Dhoni\ nonchalantly\ removes\ the\ bails\ _\ ESPNcricinfo_com.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+   text-align: center;
+    padding-top: 200px;
+    
+   
+}
+.heading-tag{
+    font-family: 'Reenie Beanie', cursive;
+    color: white;
+   
+    font-style: italic;
+}
+.main-heading {
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+
+.main-heading-para{
+    padding-top: 20px;
+    width: 320px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.dhoni-sign{
+    width: 300pxz;
+    height: 150px;
+    padding: 50px;
+     
+    filter: drop-shadow(10px 10px 10px yellow);
+}
+.tribute-page{
+    font-size: 20px;
+    font-family: Lumanosimo;
+}
+
+
+.card-container{
+    width: 100%;
+
+}
+.achiments{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+    padding-top: 20px;
+}
+.ms-dhoni{
+    background-image: url(./LEGEND.jpg);
+    width: 100%;
+    height: 100vh;
+    
+}
+.card-alien{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    margin: 20px;  
+    width: 200px;
+    
+    border-radius: 10px;
+}
+.card-image{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+    
+}
+.card-description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 10px;
+}
+.card-details{
+    padding: 10px;
+}
+.card:hover{
+    transition: 0.9 ease;
+    transform: scale(0.9);
+}
+.icon{
+    height: 10px;
+}
+.dhoni-timeline{
+    
+    height: auto;
+    padding-bottom: 50px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+   
+
+}
+.timeline-heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.list-type-timeline{
+    padding: 10px;
+}
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  section:nth-child(1) {
+    color: #e0ffff;
+  }
+  
+  section .container {
+    margin: 30px;
+  }
+
+ 
+  section .text-container {
+    display: flex;
+
+  }
+
+  @media (max-width: 900px) {
+    section h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    section .text-container {
+      flex-direction: column;
+    }
+  }
+  
+  .reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
