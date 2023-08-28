@@ -1,0 +1,46 @@
+
+body{
+    font-family: cursive;
+        background-color: black;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .container{
+        background-color: red;
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+        margin: 5% 23%;
+        
+    }
+    h1{
+         color: red;
+         text-decoration: underline;
+         margin: 1% 37%;
+    }
+    #todobox{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    #savebox{
+        width: 350px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        margin: 46px 40px;
+        padding: 3px 0px;
+        border: none;
+    }
+    button{
+        height: 30px;
+        width: 40px;
+    }
+    footer{
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: -2%;
+        
+    }
